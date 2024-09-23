@@ -9,7 +9,7 @@
     "watch": "webpack --watch",
     "test1": "echo \"Error: no test specified\" && exit 1",
     "test2": "standard --fix './src/*.js'",
-    "JsDoc" : "jsdoc './src'"
+    "JsDoc": "jsdoc './src'"
   },
   "author": "Thomas & Youssef",
   "license": "ISC",
@@ -26,6 +26,8 @@
   "dependencies": {
     "chart.js": "^2.9.4",
     "core-js": "^3.16.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
     "regenerator-runtime": "^0.13.9",
     "whatwg-fetch": "^3.6.2"
   }
