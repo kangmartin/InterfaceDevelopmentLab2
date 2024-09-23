@@ -7,7 +7,7 @@ const port = 3000;
 
 // Pour faire autoriser le "Cross-Origin Resource Sharing (CORS)" d'un client spécifique
 app.use(cors({
-  origin: 'http://localhost:8080'
+
 }));
 
 // Chemin vers le fichier JSON de apple
